@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA98C70242CF4C700BED4BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C6F242CF4C700BED4BA /* AppDelegate.m */; };
+		FAA98C73242CF4C700BED4BA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C72242CF4C700BED4BA /* SceneDelegate.m */; };
+		FAA98C76242CF4C700BED4BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C75242CF4C700BED4BA /* ViewController.m */; };
+		FAA98C79242CF4C700BED4BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA98C77242CF4C700BED4BA /* Main.storyboard */; };
+		FAA98C7B242CF4C800BED4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA98C7A242CF4C800BED4BA /* Assets.xcassets */; };
+		FAA98C7E242CF4C800BED4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA98C7C242CF4C800BED4BA /* LaunchScreen.storyboard */; };
+		FAA98C81242CF4C900BED4BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C80242CF4C900BED4BA /* main.m */; };
+		FAA98C8A242CF50500BED4BA /* CXTransitionAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C89242CF50500BED4BA /* CXTransitionAnimatorFade.m */; };
+		FAA98C8D242CF58C00BED4BA /* CXTransitionAnimatorFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C8C242CF58C00BED4BA /* CXTransitionAnimatorFromBottom.m */; };
+		FAA98C90242CF5F200BED4BA /* CXTransitionAnimatorFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C8F242CF5F200BED4BA /* CXTransitionAnimatorFromRight.m */; };
+		FAA98C93242CF63100BED4BA /* CXTransitionAnimatorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C92242CF63100BED4BA /* CXTransitionAnimatorDefault.m */; };
+		FAA98C96242CF69000BED4BA /* CXPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C95242CF69000BED4BA /* CXPopViewController.m */; };
+		FAA98C99242CF6F500BED4BA /* CXPopPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA98C98242CF6F500BED4BA /* CXPopPresentationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA98C6B242CF4C700BED4BA /* ZasyAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZasyAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA98C6E242CF4C700BED4BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA98C6F242CF4C700BED4BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA98C71242CF4C700BED4BA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FAA98C72242CF4C700BED4BA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FAA98C74242CF4C700BED4BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAA98C75242CF4C700BED4BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAA98C78242CF4C700BED4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA98C7A242CF4C800BED4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA98C7D242CF4C800BED4BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA98C7F242CF4C800BED4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA98C80242CF4C900BED4BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA98C88242CF50500BED4BA /* CXTransitionAnimatorFade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTransitionAnimatorFade.h; sourceTree = "<group>"; };
+		FAA98C89242CF50500BED4BA /* CXTransitionAnimatorFade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTransitionAnimatorFade.m; sourceTree = "<group>"; };
+		FAA98C8B242CF58C00BED4BA /* CXTransitionAnimatorFromBottom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTransitionAnimatorFromBottom.h; sourceTree = "<group>"; };
+		FAA98C8C242CF58C00BED4BA /* CXTransitionAnimatorFromBottom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTransitionAnimatorFromBottom.m; sourceTree = "<group>"; };
+		FAA98C8E242CF5F200BED4BA /* CXTransitionAnimatorFromRight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTransitionAnimatorFromRight.h; sourceTree = "<group>"; };
+		FAA98C8F242CF5F200BED4BA /* CXTransitionAnimatorFromRight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTransitionAnimatorFromRight.m; sourceTree = "<group>"; };
+		FAA98C91242CF63100BED4BA /* CXTransitionAnimatorDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXTransitionAnimatorDefault.h; sourceTree = "<group>"; };
+		FAA98C92242CF63100BED4BA /* CXTransitionAnimatorDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXTransitionAnimatorDefault.m; sourceTree = "<group>"; };
+		FAA98C94242CF69000BED4BA /* CXPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPopViewController.h; sourceTree = "<group>"; };
+		FAA98C95242CF69000BED4BA /* CXPopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPopViewController.m; sourceTree = "<group>"; };
+		FAA98C97242CF6F500BED4BA /* CXPopPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXPopPresentationController.h; sourceTree = "<group>"; };
+		FAA98C98242CF6F500BED4BA /* CXPopPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXPopPresentationController.m; sourceTree = "<group>"; };
+		FAA98C9A242CF7EB00BED4BA /* EasyTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyTransition.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA98C68242CF4C700BED4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA98C62242CF4C700BED4BA = {
+			isa = PBXGroup;
+			children = (
+				FAA98C6D242CF4C700BED4BA /* ZasyAnimations */,
+				FAA98C6C242CF4C700BED4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA98C6C242CF4C700BED4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA98C6B242CF4C700BED4BA /* ZasyAnimations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA98C6D242CF4C700BED4BA /* ZasyAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				FAA98C87242CF4D900BED4BA /* Animations */,
+				FAA98C6E242CF4C700BED4BA /* AppDelegate.h */,
+				FAA98C6F242CF4C700BED4BA /* AppDelegate.m */,
+				FAA98C71242CF4C700BED4BA /* SceneDelegate.h */,
+				FAA98C72242CF4C700BED4BA /* SceneDelegate.m */,
+				FAA98C74242CF4C700BED4BA /* ViewController.h */,
+				FAA98C75242CF4C700BED4BA /* ViewController.m */,
+				FAA98C77242CF4C700BED4BA /* Main.storyboard */,
+				FAA98C7A242CF4C800BED4BA /* Assets.xcassets */,
+				FAA98C7C242CF4C800BED4BA /* LaunchScreen.storyboard */,
+				FAA98C7F242CF4C800BED4BA /* Info.plist */,
+				FAA98C80242CF4C900BED4BA /* main.m */,
+			);
+			path = ZasyAnimations;
+			sourceTree = "<group>";
+		};
+		FAA98C87242CF4D900BED4BA /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FAA98C88242CF50500BED4BA /* CXTransitionAnimatorFade.h */,
+				FAA98C89242CF50500BED4BA /* CXTransitionAnimatorFade.m */,
+				FAA98C8B242CF58C00BED4BA /* CXTransitionAnimatorFromBottom.h */,
+				FAA98C8C242CF58C00BED4BA /* CXTransitionAnimatorFromBottom.m */,
+				FAA98C8E242CF5F200BED4BA /* CXTransitionAnimatorFromRight.h */,
+				FAA98C8F242CF5F200BED4BA /* CXTransitionAnimatorFromRight.m */,
+				FAA98C91242CF63100BED4BA /* CXTransitionAnimatorDefault.h */,
+				FAA98C92242CF63100BED4BA /* CXTransitionAnimatorDefault.m */,
+				FAA98C94242CF69000BED4BA /* CXPopViewController.h */,
+				FAA98C95242CF69000BED4BA /* CXPopViewController.m */,
+				FAA98C97242CF6F500BED4BA /* CXPopPresentationController.h */,
+				FAA98C98242CF6F500BED4BA /* CXPopPresentationController.m */,
+				FAA98C9A242CF7EB00BED4BA /* EasyTransition.h */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA98C6A242CF4C700BED4BA /* ZasyAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA98C84242CF4C900BED4BA /* Build configuration list for PBXNativeTarget "ZasyAnimations" */;
+			buildPhases = (
+				FAA98C67242CF4C700BED4BA /* Sources */,
+				FAA98C68242CF4C700BED4BA /* Frameworks */,
+				FAA98C69242CF4C700BED4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZasyAnimations;
+			productName = ZasyAnimations;
+			productReference = FAA98C6B242CF4C700BED4BA /* ZasyAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA98C63242CF4C700BED4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "李旭峰";
+				TargetAttributes = {
+					FAA98C6A242CF4C700BED4BA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FAA98C66242CF4C700BED4BA /* Build configuration list for PBXProject "ZasyAnimations" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA98C62242CF4C700BED4BA;
+			productRefGroup = FAA98C6C242CF4C700BED4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA98C6A242CF4C700BED4BA /* ZasyAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA98C69242CF4C700BED4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA98C7E242CF4C800BED4BA /* LaunchScreen.storyboard in Resources */,
+				FAA98C7B242CF4C800BED4BA /* Assets.xcassets in Resources */,
+				FAA98C79242CF4C700BED4BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA98C67242CF4C700BED4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA98C8D242CF58C00BED4BA /* CXTransitionAnimatorFromBottom.m in Sources */,
+				FAA98C8A242CF50500BED4BA /* CXTransitionAnimatorFade.m in Sources */,
+				FAA98C96242CF69000BED4BA /* CXPopViewController.m in Sources */,
+				FAA98C76242CF4C700BED4BA /* ViewController.m in Sources */,
+				FAA98C90242CF5F200BED4BA /* CXTransitionAnimatorFromRight.m in Sources */,
+				FAA98C70242CF4C700BED4BA /* AppDelegate.m in Sources */,
+				FAA98C81242CF4C900BED4BA /* main.m in Sources */,
+				FAA98C93242CF63100BED4BA /* CXTransitionAnimatorDefault.m in Sources */,
+				FAA98C99242CF6F500BED4BA /* CXPopPresentationController.m in Sources */,
+				FAA98C73242CF4C700BED4BA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAA98C77242CF4C700BED4BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA98C78242CF4C700BED4BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA98C7C242CF4C800BED4BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA98C7D242CF4C800BED4BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA98C82242CF4C900BED4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA98C83242CF4C900BED4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA98C85242CF4C900BED4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4TU6XBJ5R;
+				INFOPLIST_FILE = ZasyAnimations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asman.masterniu.ZasyAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA98C86242CF4C900BED4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4TU6XBJ5R;
+				INFOPLIST_FILE = ZasyAnimations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asman.masterniu.ZasyAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA98C66242CF4C700BED4BA /* Build configuration list for PBXProject "ZasyAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA98C82242CF4C900BED4BA /* Debug */,
+				FAA98C83242CF4C900BED4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA98C84242CF4C900BED4BA /* Build configuration list for PBXNativeTarget "ZasyAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA98C85242CF4C900BED4BA /* Debug */,
+				FAA98C86242CF4C900BED4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA98C63242CF4C700BED4BA /* Project object */;
+}
